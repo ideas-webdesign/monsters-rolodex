@@ -12,7 +12,7 @@ class App extends Component {
 
     this.state = {
       monsters: [],
-      searchField: ''
+      searchField: '',
     }
   }
   
@@ -39,7 +39,7 @@ class App extends Component {
         <h1> Monsters Rolodex </h1>
         <SearchBox placeholder='search monsters' handleChange={this.handleChange}/>
         <CardList monsters={filteredMonsters} />
-      </div>
+      </div> 
     );
   }
 }
